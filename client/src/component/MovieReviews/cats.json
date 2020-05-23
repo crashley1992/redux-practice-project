@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1 ,
+        "name": "Victoria the White Cat",
+        "image": "./images/Victoria.PNG"
+    },
+    {
+        "id": 2,
+        "name": "Old Deuteronomy",
+        "image": "./images/Deuteronomy.PNG"
+    },
+    {
+        "id": 3,
+        "name": "Macavity the Mystery Cat",
+        "image": "./images/Macavity.PNG"
+    },
+    {
+        "id": 4,
+        "name": " Grizabella the Glamour Cat",
+        "image": "./images/Grizabella.PNG"
+    },
+    {
+        "id": 5,
+        "name": "Mr. Mistoffelees",
+        "image": "./images/Mistoffelees.PNG"
+    },
+    {
+        "id": 6,
+        "name": " Jennyanydots the Gumbie Cat",
+        "image": "./images/jennyanydots.PNG"
+    },
+    {
+        "id": 7,
+        "name": "Bustopher Jones",
+        "image": "./images/Bustopher-Jones.PNG"
+    },
+    {
+        "id": 9,
+        "name": "Rum Tum Tugger",
+        "image": "./images/Rum-Tum.PNG"
+    },
+    {
+        "id": 10,
+        "name": " Gus aka Asparagus the Theatre Cat",
+        "image": "./images/Gus.PNG"
+    },
+    {
+        "id": 11,
+        "name": "Bombalurina",
+        "image": "./images/Bomb.PNG"
+    }
+]
