@@ -11,6 +11,10 @@ class MovieReviews extends Component {
         data: []
     }
 
+    //api call for movie reviews.
+    
+
+    //displays cats onto page by setting json data to state
     catsDisplay = () => {
         this.setState({ cats });
     }

@@ -3,8 +3,9 @@ import './header.css';
 
 const Header = () => {
     return (
-        <div>
+        <div id="header">
             <h1 class="header-title">Vote for you Favorite Cat</h1>
+            <button id="random-button">Random Cats Review</button>
         </div>
     )
 }

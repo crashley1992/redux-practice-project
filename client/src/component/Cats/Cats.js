@@ -9,7 +9,7 @@ const Cats = (props) => {
     <Card.Body>
       <Card.Title>{props.name}</Card.Title>
       <Card.Text>
-        <p id="cat-text">Cats Name: {props.name}</p>
+        <p id="cat-text">Likes: </p>
       </Card.Text>
     </Card.Body>
   </Card>

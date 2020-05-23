@@ -1,4 +1,23 @@
+#header {
+    text-align: center; 
+}
+
 .header-title {
-    text-align: center;
     padding: 5% 5% 5% 5%;
+}
+
+#random-button {
+    margin-bottom: 5%;
+    padding: 10px 10px 10px 10px;
+    color: whitesmoke;
+    background-color: #78A1BB;
+    border: #283044 solid 1px;
+    border-radius: 3%;
+    font-size: 16px;
+}
+
+#random-button:hover {
+    color: whitesmoke;
+    background-color: #283044;
+    border: #283044 solid 2px;
 }
