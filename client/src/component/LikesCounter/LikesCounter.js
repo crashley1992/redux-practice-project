@@ -6,24 +6,32 @@ class LikesCounter extends Component {
         counter: 0
     }
 
-     likesHandler = () => {
-        if ('inc') {
-            this.setState({
-                counter: this.state.counter + 1
-            })
+     likesHandler = (action) => {
+        if (action) {
+            this.setState( ( prevState ) => { return { counter: prevState.counter + 1 } } )
         }
     }
 
     render() {
         return(
             <div>
-                <p>Total Likes: {this.state.counter}</p>
-                <button onClick={this.likesHandler}>Like</button>
+                <p>Total Likes: {this.props.ctr}</p>
+                <button label="Increment" onClick={this.props.likesHandler}>Like</button>
             </div>
         )
     }
 }
 
+const mapStateToProps = state => {
+    return {
+        ctr: state.counter
+    };
+};
 
+const mapDispatchToProps = dispatch => {
+    return {
+        likesHandler: () => dispatch({type: 'INCREMENT'})
+    }
+}
 
-export default connect()(LikesCounter);
+export default connect(mapStateToProps, mapDispatchToProps)(LikesCounter);
