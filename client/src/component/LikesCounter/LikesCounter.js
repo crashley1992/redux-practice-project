@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
+import './likes-counter.css';
 
 class LikesCounter extends Component {
     state = {
@@ -16,7 +17,7 @@ class LikesCounter extends Component {
         return(
             <div>
                 <p>Total Likes: {this.props.ctr}</p>
-                <button label="Increment" onClick={this.props.likesHandler}>Like</button>
+                <button id="likes-button" label="Increment" onClick={this.props.likesHandler}>Like</button>
             </div>
         )
     }
