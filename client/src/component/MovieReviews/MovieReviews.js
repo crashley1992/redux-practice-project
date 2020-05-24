@@ -23,10 +23,11 @@ class MovieReviews extends Component {
         return(
             <div>
                 <Header />
-                {this.state.cats.map(cats => (<Cats 
-                    id={cats.id}
-                    name={cats.name}
-                    image={cats.image}
+                {this.state.cats.map(cat => (<Cats 
+                    id={cat.id}
+                    key={cat.id}
+                    name={cat.name}
+                    image={cat.image}
                 />))}
             </div>
         )
